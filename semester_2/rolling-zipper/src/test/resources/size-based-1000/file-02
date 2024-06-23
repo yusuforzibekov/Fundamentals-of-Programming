@@ -1,0 +1,29 @@
+This project aims to provide an easy alternative to the standard Python implementation of your application (it doesn't have any code generation tools, but you can use the "python-mumble", "python-python" or "python-gimp" files to make Python work. Just create a new file and run:
+
+./python-gimp
+
+This will create a file named python-gmumble.py in your project root.
+
+Python Documentation
+
+The Python documentation is available below:
+
+http://docs.python.org/
+
+Python.org/docs/doc.html
+
+Python.org/docs/tools.html
+
+Paleo Python Documentation
+
+Paleo.com is a wiki for both Python and its syntax (including the documentation).
+
+If you already have Python installed, get up from under the directory where you installed it. Or, alternatively clone and install python-python and Python.
+
+You need to create a new directory, use a subdirectory, and hit F5 (make sure it's named after the filename you'd like to reference).
+
+If you're installing it manually, then just use the root directory to install Python.
+
+The Python module system is here: PEP 758. It currently is available there, it's the same API as the Python interpreter itself.
+
+The Python module base contains more than 3000 filetypes.

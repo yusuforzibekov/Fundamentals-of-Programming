@@ -1,0 +1,29 @@
+Java can run as "Windows 10" without root access, for example. This prevents this from happening with custom applications or applications that are not yet supported by Microsoft.
+
+Windows XP is also possible but required because the operating system has to be installed first.
+
+The installation of a Windows XP system should be done with absolute trust only if you have the necessary permissions to be able to run it.
+
+If you are unsure, make sure that you have Windows Vista installed and set your system to be able to run windows on windows XP.
+
+If you have Windows 7 installed, you should need to run the following command to get the necessary permissions and access to the computer.
+
+$ pve -l windows-9-amd64 --without-root_install_keys
+
+This will install Windows XP and any non-windows XP users in the system. This also works with Windows XP users who have not received any updates of Windows Vista yet.
+
+The installation of Windows Vista depends on a number of things.
+
+
+Hardware settings
+
+This area is to be covered by a good Windows installation guide.
+
+Important Information
+
+
+Windows Installation Guide - this guide is from the beginning. If you have problems with installation of these files, I recommend downloading the entire document.
+
+Windows Installation Guide - this guide is from the beginning. If you have problems with installation of these files, I recommend downloading this entire document.
+
+Note - Some of the following

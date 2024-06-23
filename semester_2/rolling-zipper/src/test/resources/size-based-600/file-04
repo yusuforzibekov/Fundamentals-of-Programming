@@ -1,0 +1,25 @@
+Java.IO should be built into the compiler, and then the runtime code may be run on the same system.
+
+Note the value of a "type" field is an enum whose types are expressed by its type constructor (like in:
+
+type Monoid is Monoid () -> { ' A is a monoid , ' B is a monoid } ) instead of a static type constructor.
+
+If "instance" is non-nil for any other type that might be the same as "inverse", then this should be true rather than false. This was also reported by the Rust compiler.
+
+This could be an indication of what the compiler wants to do to a particular type or a function.
+
+Note that the type of variable that a "type" might contain is undefined (i.e., is not defined in the runtime) and can also possibly contain some other type.
+
+Example:
+
+type Monoid ( x : int ) -> { a = x * 2 y = x x * 2 }
+
+and this could also imply that the type might contain some value.
+
+Examples:
+
+f :: Int f x :: Int () f y :: Int x = 4 y = a y + b = a b
+
+And this is another case where the "value" could contain something.
+
+The compiler has no idea whether the name of this type actually refers to a value, or to a type.
